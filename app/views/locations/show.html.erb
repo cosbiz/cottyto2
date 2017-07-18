@@ -1,0 +1,62 @@
+<%= render 'shared/page_title', title: @location.name %>
+
+<div class="row">
+  <div class="col-md-4 pull-right center">
+    <p>
+      
+    </p>
+  </div>
+  <div class="col-md-8">
+      <%= link_to "Edit Location", edit_location_path(@location), class: "btn btn-success pull-right" if can? :update, @location %>
+    
+    <div class="show_location">
+      <%= image_tag(@location.picture.url, size: "250x150", class: "gravatar") if @location.picture? %>
+    </div>
+    <p>Cuisine: <%= render @location.cuisines %></p>
+    <p>Location type: <%= render @location.categories %></p>
+    <h5 class="avg-rating">Average Rating</h5>
+    <div class="average-review-rating" data-score=<%= @location.reviews.average(:rating) %>></div>
+    <%= link_to 'Add Review', new_location_review_path(@location) %>
+    <div class="well">
+      <p>
+        <strong>Description: </strong>
+      </p>
+      <%= simple_format(@location.description) %>
+      <div class="pull-right">
+        <%= link_to like_location_path(@location, like: true), method: :post do %>
+          <i class="glyphicon glyphicon-thumbs-up"></i> &nbsp <%= @location.thumbs_up_total %>
+        <% end %> &nbsp&nbsp&nbsp&nbsp
+        <%= link_to like_location_path(@location, like: false), method: :post do %>
+          <i class="glyphicon glyphicon-thumbs-down"></i> &nbsp <%= @location.thumbs_down_total %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render @location.reviews %>
+
+<h5><%= link_to "Return to Locations", locations_path, class: "btn btn-warning btn-small" %></h5>
+
+<script>
+$('.review-rating').raty('destroy');
+  $('.review-rating').raty({
+    readOnly: true,
+    number: 5,
+    score: function() {
+      return $(this).attr('data-score');
+    },
+    path: '/assets/'
+  });
+</script>
+
+<script>
+$('.average-review-rating').raty('destroy');
+  $('.average-review-rating').raty({
+    readOnly: true,
+    path: '/assets/',
+    score: function() {
+      return $(this).attr('data-score')
+    }
+  });
+</script>

@@ -1,0 +1,21 @@
+# Logfile created on 2017-07-19 18:01:16 +0300 by logger.rb/54362
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:01:16 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a59a1c75] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [a59a1c75] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:01:36 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [bf65a2b5] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [bf65a2b5] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:02:14 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [614ab033] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [614ab033] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:04:40 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [788bf1b8] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [788bf1b8] Command: ~/.rvm/bin/rvm version

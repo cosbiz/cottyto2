@@ -19,3 +19,43 @@
   INFO ---------------------------------------------------------------------------
  DEBUG [788bf1b8] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
  DEBUG [788bf1b8] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:05:47 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [41031843] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [41031843] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:07:53 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4ed60044] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [4ed60044] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:08:27 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c6a6f2a1] Running ~/.rvm/bin/rvm version as ubuntu@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [c6a6f2a1] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:09:54 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8bfdfc67] Running ~/.rvm/bin/rvm version as deploy@ip-172-31-32-233
+ DEBUG [8bfdfc67] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:10:09 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e73e37fb] Running ~/.rvm/bin/rvm version as deploy@172.31.32.233
+ DEBUG [e73e37fb] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:12:43 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ff942f12] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [ff942f12] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:14:20 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5758fd13] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [5758fd13] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-19 18:19:20 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7857d587] Running ~/.rvm/bin/rvm version as deploy@ec2-52-211-209-0.eu-west-1.compute.amazonaws.com
+ DEBUG [7857d587] Command: ~/.rvm/bin/rvm version
